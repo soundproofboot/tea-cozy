@@ -1,0 +1,94 @@
+body {
+    color: seashell;
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: .9;
+    text-align: center;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+header {
+    display: flex;
+    height: 69px;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+}
+
+a {
+    color: seashell
+}
+
+#mission {
+    height: 700px;
+    max-width: 1200px;
+    background-image: url("media/img-mission-background.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#mission-block {
+    background-color: black;
+    text-align: center;
+    width: 1200px;
+}
+
+#featured-tea {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#picture-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.picture {
+    height: 200px;
+    width: 300px;
+    margin: 0 10px;
+}
+
+#locations {
+    max-width: 1200px;
+    height: 500px;
+    background-image: url(media/img-locations-background.webp);
+    background-position: center top;
+    margin: 0 auto;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+.boxes {
+    display:flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+    
+}
+.box {
+    background-color: black;
+    width: 300px;
+    margin: 0 20px;
+    opacity: 1;
+}
+
+#copy {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#contact-info {
+    height: 200px;
+}
